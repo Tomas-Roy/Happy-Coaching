@@ -1,0 +1,2117 @@
+/*
+Template Name: Happy Coaching
+Template URI: https://happycoaching.com
+Author: Tomas Roy
+Author URI: https://tomasroy.me
+*/
+
+
+  /*****************************/
+ /******** Default CSS ********/
+/*****************************/
+
+:root {
+    --color01: #FFFFFF;
+    --color02: #FAF8F6;
+    --color03: #0C111D;
+    --color04: #333461;
+    --color05: #7567CA;
+    --color06: #C0B9EC;
+    --color07: #d5f7f2;
+    --color08: #20AD96;
+    --color09: #4A556C;
+    --color10: #EB4646;
+}
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+p {
+    font-size: 16px;
+    color: var(--color09);
+    font-weight: 400;
+	margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color09);
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    color: var(--color04);
+    font-weight: 400;
+}
+.section-padding {
+    padding: 100px 0;
+}
+img {
+	display: block;
+}
+
+  /*****************************/
+ /******** Header  CSS ********/
+/*****************************/
+
+.header-area {
+	padding: 20px 0;
+}
+.logo-area {
+	display: flex;
+}
+.logo-image {
+	background: var(--color08);
+	padding: 5px 10px;
+    margin-right: 8px;
+	clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.logo-image img {
+	height: 16px;
+	width: auto;
+}
+.menu-area ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: end;
+	align-items: center;
+}
+.logo h3{
+    font-size: 27px;
+    font-weight: 600;
+}
+.menu-area ul li {
+	margin: 0 20px;
+}
+.menu-area ul li a {
+	color: var(--color04);
+    font-size: 15px;
+}
+ul li a.active{
+	color: var(--color08) !important;
+}
+
+.menu-area ul li a:hover {
+	color: var(--color08);
+    transition: .5s;
+}
+.header-button {
+	background: var(--color08);
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+.header-button a{
+    color: var(--color01);
+    font-weight: 600;
+    font-size: 14px;
+}
+.header-button:hover {
+	background: var(--color04);
+    transition: .5s;
+}
+
+button.show, button.hide {
+	display: none;
+	font-size: 30px;
+	margin: 0px;
+	color: var(--color08);
+	outline: none;
+	border: 3px solid var(--color08);
+	padding: 0px 8px;
+	background: none;
+	border-radius: 10px;
+}
+
+  /*********************/
+ /**** Banner Area ****/
+/*********************/
+
+.banner-area-left {
+	margin-right: 85px;
+}
+.banner-vactor {
+	padding: 0 0 50px 0;
+	margin-left: -50px;
+	margin-top: -100px;
+}
+.banner-vactor img {
+	margin-top: -60px;
+}
+.banner-text p {
+	font-size: 16px;
+	color: var(--color09);
+	opacity: 50%;
+	margin-bottom: 15px;
+}
+.banner-heading h2 {
+	font-size: 72px;
+	font-weight: 700;
+	color: var(--color04);
+}
+.banner-content p {
+	font-size: 18px;
+	color: var(--color09);
+	margin: 20px 0;
+}
+.btn-1{
+	width: 50%;
+	text-align: center;
+}
+.banner-area-right {
+	margin-left: 50px;
+}
+.banner-sub-text h4 {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 32px;
+}
+.banner-sub-text span {
+	font-size: 12px;
+}
+.banner-area-sub {
+	left: -115px;
+	background: var(--color01);
+	width: 45%;
+	margin-bottom: -55px;
+	position: relative;
+	z-index: 1;
+	padding: 10px;
+}
+.banner-image {
+	width: 80%;
+	margin-bottom: -30px;
+}
+.banner-image img {
+	height: 100%;
+	width: 100%;
+}
+.banner-area-main {
+	padding: 100px 0px 0px 0px;
+	background: #f4f4f4db;
+}
+
+
+  /***********************/
+ /**** Healping Area ****/
+/***********************/
+
+.helping-text h4 {
+	font-size: 48px;
+	font-weight: 800;
+	color: var(--color04);
+	margin-bottom: 50px;
+}
+.helping-vactor{
+	margin-bottom: 35px;
+}
+.healping-right p {
+	font-size: 17px;
+	line-height: 25px;
+	color: var(--color09);
+	margin-top: 45px;
+	width: 75%;
+}
+.helping-box {
+	margin: 40px 0 0 40px;
+}
+.helping-heading h2 {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 30px 0 15px 0;
+}
+.helping-bottom {
+	margin-top: 35px;
+}
+.helping-details p {
+	font-size: 16px;
+	color: var(--color09);
+	width: 80%;
+}
+
+  /***********************/
+ /***** Client Area *****/
+/***********************/
+.client-area-main {
+	background-color: var(--color02);
+	padding-bottom: 150px;
+}
+.client-up {
+	width: 45%;
+}
+.carosel-box {
+	background-color: var(--color01);
+	padding: 45px;
+}
+.client-text p {
+	color: var(--color09);
+	font-size: 24px;
+	font-weight: ;
+}
+.client-heading h3 {
+	font-size: 24px;
+	font-weight: 700;
+	color: var(--color04);
+	margin: 20px 0;
+}
+.client-image {
+	height: 70px;
+	width: 69px;
+	margin-bottom: 20px;
+}
+.client-icon i {
+	margin-right: 5px;
+	color: #FEC84B;
+}
+
+  /***********************/
+ /****** Blog Area ******/
+/***********************/
+.blog-box {
+	margin: 0 20px;
+	border: 1px solid var(--color07);
+}
+.blog-box-image img{
+	height: 100%;
+	width: 100%;
+}
+.blog-heading h4{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+.blog-heading{
+	margin-bottom: 70px;
+}
+.blog-box-text {
+	margin: 35px;
+}
+.blog-box-text h4{
+	font-size: 24px;
+	font-weight: 700;
+	color: var(--color04);
+	margin-bottom: 20px;
+}
+.blog-box-text p {
+	font-size: 16px;
+	color: var(--color09);
+	word-spacing: 15%;
+}
+.btn-2 {
+	margin: auto;
+	width: 60%;
+	text-align: center;
+	margin-top: 70px;
+}
+ 
+  /***********************/
+ /***** Guide Area ******/
+/***********************/
+.guide-box-left h3 {
+	font-size: 48px;
+	font-weight: 800;
+	color: var(--color04);
+}
+.guide-box-left p {
+	font-size: 22px;
+	color: var(--color09);
+	margin: 30px 0;
+	line-height: 33px;
+}
+.guide-box-left p span {
+	font-size: 17px;
+	line-height: 0;
+}
+.btn-3 {
+	width: 40%;
+	text-align: center;
+}
+.guide-box-right {
+	margin-left: 100px;
+}
+.offer-box {
+	height: 96px;
+	width: 96px;
+	background-color: var(--color08);
+	border-radius: 50%;
+	text-align: center;
+	align-items: center;
+	position: absolute;
+	top: -35px;
+	right: 55px;
+	display: flex;
+	justify-content: center;
+}
+.offer-box span {
+	color: var(--color01);
+	font-size: 15px;
+	font-weight: 600;
+}
+.guide-box-right {
+	position: relative;
+}
+
+  /***********************/
+ /***** Offer Area ******/
+/***********************/
+.offer-mg {
+	background-color: var(--color02);
+	padding: 0 0 0 30px;
+	border-radius: 20px;
+	margin-right: 38px;
+}
+.offer-area-right img {
+	display: block;
+	border-radius: 20px;
+	width: 100%;
+}
+
+.offer-area-left h3 {
+	font-size: 36px;
+	font-weight: 700;
+}
+.offer-area-left p {
+	font-size: 20px;
+	margin: 20px 0;
+	color: var(--color09);
+	opacity: 50%;
+}
+
+  /***********************/
+ /***** Footer Area *****/
+/***********************/
+
+.footer-area-up {
+	background-color: var(--color02);
+	padding: 50px 0;
+}
+.footer-up-left h3 {
+	font-size: 30px;
+	font-weight: 800;
+}
+.footer-up-left p {
+	font-size: 20px;
+	margin: 10px 0 0 0;
+}
+
+#email {
+	color: var(--color09);
+	opacity: 50%;
+	width: 230px;
+	height: 35px;
+	padding: 10px 15px;
+	border-radius: 8px;
+	margin-right: 10px;
+	outline: none;
+	border: 1px solid var(--color09);
+}
+.sub-btn::placeholder{
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.header-button.btn-4 {
+	padding: 5px 30px;
+	color: var(--color01);
+}
+.footer-area-middle {
+	padding-top: 90px;
+}
+.footer-m-one p{
+	margin-top: 30px;
+	opacity: 50%;
+}
+.f-name h3{
+	font-size: 15px;
+	font-weight: 800;
+}
+.footer-m-two .f-name, .footer-m-three .f-name {
+	margin-bottom: 20px;
+}
+
+.f-menu-area ul li {
+	margin-bottom: 15px;
+}
+.f-menu-area ul li a{
+	color: var(--color09);
+	opacity: 50%;
+	transition: .5s;
+}
+.f-menu-area ul li a:hover{
+	color: var(--color08);
+	opacity: 100%;
+}
+.f-last ul li{
+	opacity: 50%;
+}
+
+.copyright-area{
+	padding-top: 45px;
+}
+
+.copyright-area p a span {
+	font-variant: small-caps;
+	color: var(--color04);
+	font-weight: 600;
+	margin-left: 10px;
+	transition: .4s;
+	letter-spacing: 3px;
+}
+.footer-area-bottom {
+	padding: 40px 0;
+}
+.footer-border{
+	border-top: 1px solid var(--color09);
+	width: 98%;
+	margin: auto;
+	opacity: 20%;
+}
+.copyright-area ul li a i{
+	font-size: 25px;
+	color: var(--color09);
+}
+.copyright-area ul li {
+	margin-left: 20px;
+}
+.copyright-area ul li a{
+	transition: .5s;
+}
+.copyright-area ul li a:hover {
+	transform: rotate(360deg) ;
+}
+.section-padding {
+    padding: 100px 0;
+}
+
+
+  /***********************/
+ /***** Service Page ****/
+/***********************/
+.service-helping-box {
+	border: 1px solid #EDEFF5;
+	padding: 65px 70px;
+}
+.service-helping-bottom {
+	margin: auto;
+	width: 90%;
+}
+.service-helping-left .helping-text h4 {
+	margin-bottom: 80px;
+}
+.s-box-two {
+	margin-top: 150px;
+}
+.s-box-three {
+	margin-top: -125px;
+}
+.s-box-four{
+	margin-top: 25px;
+}
+.helping-heading h2{
+	transition: .5s;
+}
+.service-helping-box:hover .helping-heading h2{
+	color: var(--color08);
+}
+.service-helping-area-main{
+	padding-bottom: 0;
+}
+
+  /***********************/
+ /***** Working Area ****/
+/***********************/
+.working-up{
+	width: 40%;
+	margin-bottom: 100px;
+}
+.working-up span{
+	font-size: 16px;
+	color: var(--color09);
+	opacity: 50%;
+}
+.working-up h3 {
+	font-size: 48px;
+	font-weight: 800;
+	margin: 20px 0;
+}
+.working-up p {
+	font-size: 20px;
+	opacity: 70%;
+	width: 85%;
+}
+.working-left{
+	display: flex;
+}
+.working-left .icon {
+	height: 48px;
+	width: 48px;
+	background: var(--color02);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 5px;
+}
+.working-left .icon img {
+	height: 22px;
+	width: 22px;
+}
+.working-left .text h4 {
+	font-size: 19px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.working-left .text p{
+	font-size: 16px;
+}
+.working-left .text{
+	padding: 10px;
+}
+.working-left-option {
+	margin-bottom: 30px;
+}
+.working-right img {
+	height: 100%;
+	width: 90%;
+	margin: auto;
+}
+.working-area-main {
+	padding-bottom: 20px;
+}
+
+
+
+  /***********************/
+ /*** Accrodion Area ****/
+/***********************/
+
+.accrodion-up{
+	margin-bottom: 35px;
+}
+.accrodion-up h4{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.accrodion-up p{
+	font-size: 20px;
+	text-align: center;
+}
+.accrodion-md {
+	width: 70%;
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+
+.accordion-item {
+	border: none;
+	padding: 15px 0;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+.accordion button {
+	position: relative;
+	display: block;
+	text-align: left;
+	width: 100%;
+	padding: 5px 0;
+	color: var(--color08);
+	font-size: 30px;
+	font-weight: 400;
+	border: none;
+	background: none;
+	outline: none;
+}
+.accordion button:hover, .accordion button:focus {
+  cursor: pointer;
+  color: var(--color08);
+}
+.accordion button:hover::after, .accordion button:focus::after {
+  cursor: pointer;
+  color: var(--color08);
+  border: 1px solid var(--color08);
+}
+.accordion button .accordion-title {
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: 500;
+	color: var(--color04);
+}
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+.accordion button[aria-expanded=true] {
+  color: var(--color08);
+}
+.accordion button[aria-expanded=true] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded=true] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+	font-size: 16px;
+	font-weight: 400;
+	margin: 5px 0 30px 0;
+	width: 75%;
+}
+
+.accrodion-bottom {
+	padding: 42px;
+	background: var(--color02);
+	margin: 0 35px;
+}
+.accrodion-bottom-content h4 {
+	font-size: 20px;
+	font-weight: 800;
+	text-align: center;
+}
+.accrodion-bottom-content p {
+	font-size: 18px;
+	text-align: center;
+	margin: 10px 0 20px 0;
+}
+.btn-mid {
+	width: 25%;
+	margin: auto;
+	text-align: center;
+}
+
+  /***********************/
+ /*** Free Guide Page ***/
+/***********************/
+
+.free-guide-box p{
+	font-size: 20px;
+	width: 75%;
+}
+.free-guide-box.guide-box-left h3 {
+	font-size: 48px;
+}
+.free-guide-box .second-text {
+	font-size: 14px;
+	margin: 0 0 20px 0;
+}
+.free-guide-box .second-text a{
+	text-decoration: underline;
+}
+.free-guide-form form{
+	display: flex;
+	flex-direction: column;
+}
+.free-guide-form form input{
+	width: 50%;
+	margin-bottom: 25px;
+}
+.free-guide-form form input:nth-child(2) {
+	margin-bottom: 15px;
+  }
+.free-guide-form form input{
+	color: var(--color09);
+	opacity: 100%;
+	padding: 10px 10px;
+	border-radius: 8px;
+	outline: none;
+	border: 1px solid #4A556C26;
+}
+.s-btn-1{
+	width: 50%;
+}
+.s-btn-1 .header-button.btn-4 {
+	width: 100%;
+	padding: 10px 0;
+}
+
+.free-guide-area-main .container{
+	max-width: 100%;
+}
+.free-guide-box{
+	padding: 70px 30px 70px 120px;
+}
+.free-guide-box-right-main {
+	background-color: var(--color02);
+	padding: 70px 0;
+}
+.free-guide-box-right img{
+	margin: auto;
+}
+.free-guide-box-right{
+	margin: auto;
+}
+.free-guide-box-right .offer-box {
+	right: 100px;
+}
+
+  /*************************/
+ /*** Testimonial  Page ***/
+/*************************/
+.testimonial-left p{
+	font-size: 16px;
+	opacity: 50%;
+	margin-bottom: 10px;
+}
+.testimonial-left h4{
+	margin: 0;
+}
+.fg-btn-3{
+	text-align: center;
+}
+
+.client-review-area {
+	width: 70%;
+	margin: auto;
+	margin-top: 90px;
+}
+.client-review-box {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 25px;
+	border: 1px solid #EDEFF5;
+	margin: 20px 5px;
+}
+.client-review-box .client-text p{
+	font-size: 16px;
+}
+.client-review-box .client-image {
+	height: 64px;
+	width: 64px;
+	margin: 25px 0 15px 0;
+}
+.client-review-box .client-image img{
+	height: 100%;
+	width: 100%;
+}
+.client-review-box .client-heading h3{
+	margin: 0;
+}
+.client-review-box .client-heading p {
+	font-size: 16px;
+	opacity: 50%;
+	margin: 7px 0 10px 0;
+}
+
+  /*************************/
+ /******* Working  Page ***/
+/*************************/
+.free-guide-working-area-main{
+	background: var(--color02);
+}
+.free-guide-working-area-main .working-up {
+	width: 100%;
+	margin-bottom: 0;
+}
+.free-guide-working-area-main  .working-up h3 {
+	margin: 10px 0 20px 0;
+}
+.free-guide-working-area-main .working-left .text p {
+	width: 80%;
+}
+video {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+}
+.video-box {
+	margin-top: -70px;
+	margin-bottom: 100px;
+}
+
+.fg-client-review-box h4 {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.fg-client-review-box p {
+	font-size: 17px;
+	width: 40%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.fg-client-review-box span {
+	color: var(--color08);
+}
+.fg-btn-4{
+	width: 20%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.fg-client-review-box .client-icon {
+	text-align: center;
+}
+.fg-client-review-box p.review-count{
+	margin-bottom: 5px;
+	font-size: 16px;
+	opacity: 50%;
+}
+.client-review-area-main {
+	background: url('../images/shape/fg-bg.svg') no-repeat scroll top left/ 104% 95%;
+}
+
+
+
+  /************************/
+ /****** About page ******/
+/************************/
+
+.about-banner-area-right .banner-area-right-main {
+	position: relative;
+}
+.about-banner-area-right .banner-sub-icon {
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--color01);
+	left: 85px;
+	top: -35px;
+	border-radius: 50%;
+}
+.about-banner-area-right .banner-sub-icon img {
+	height: 32px;
+	width: 32px;
+}
+.about-banner-area-right .banner-area-sub {
+	left: auto;
+	right: -20px;
+	background: var(--color01);
+	width: 35%;
+	margin-bottom: 0;
+	position: absolute;
+	z-index: 1;
+	padding: 25px;
+	top: 225px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.about-banner-area-right .banner-sub-second-icon {
+	height: 48px;
+	width: 48px;
+	margin-bottom: 20px;
+}
+.about-banner-area-right .banner-sub-second-icon img{
+	width: 100%;
+}
+.about-banner-area-right .banner-sub-second-text span{
+	font-size: 16px;
+	color: var(--color09);
+
+}
+.about-banner-area-right .banner-sub-second-text span:nth-child(2){
+	color: var(--color03);
+
+}
+.about-working-area .working-left .icon {
+	margin-right: 0px;
+}
+
+.client-up-heading{
+	margin-bottom: 15px;
+}
+.client-up-heading h3{
+	font-size: 30px;
+	font-weight: 800;
+}
+
+
+  /************************/
+ /***** Company Logo *****/
+/************************/
+.company-text {
+	margin-bottom: 35px;
+}
+.company-text p {
+	font-weight: 500;
+	text-align: center;
+	color: var(--color09);
+}
+
+  /***************************/
+ /*** About Acrodion Logo ***/
+/***************************/
+.about-working-area .working-up {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 70px;
+	margin-top: 40px;
+}
+.about-working-area .working-up p {
+	margin: auto;
+	width: 60%;
+}
+.about-working-area .working-left {
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 0 5px;
+}
+.about-working-area .working-left-option {
+	margin-bottom: 60px;
+}
+
+  /***********************/
+ /*** Extra Page Area ***/
+/***********************/
+.extra-page .video-box {
+	margin-bottom: 45px;
+}
+
+.program-area-main{
+	background-color: var(--color02);
+	padding: 80px 0;
+}
+.program-area-main .working-up{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.program-area-main .working-up h3 {
+	margin: 20px auto;
+	width: 40%;
+}
+
+.card-heading h3 {
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.card-bottom {
+	margin-top: 60px;
+}
+.card-text {
+	margin-bottom: 40px;
+	display: flex;
+}
+.card-icon i {
+	color: var(--color10);
+}
+.card-icon {
+	margin-right: 10px;
+}
+.program-card-main-one{
+	background-color: var(--color01);
+}
+.program-card-main {
+	padding: 50px 40px;
+}
+.program-card-main-one .card-icon i {
+	color: var(--color08);
+}
+.card-text:last-child {
+	margin-bottom: 40px !important;
+}
+.guarantee-icon{
+	display: flex;
+	justify-content: center;
+}
+.guarantee-box h2 {
+	text-align: center;
+	margin: 25px 0;
+	font-size: 40px;
+	font-weight: 800;
+}
+.guarantee-box p {
+	width: 40%;
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+
+.owl-nav{
+	display: none;
+}
+
+
+
+
+
+
+
+  /*****************************/
+ /******** Default CSS ********/
+/*****************************/
+@media all and (max-width: 1399.98px) {
+
+  /*****************************/
+ /****** Home Page CSS ********/
+/*****************************/
+	.banner-vactor {
+		margin-left: -30px;
+	}
+	.banner-area-left {
+		margin-right: 0;
+	}
+	.helping-box {
+		margin: 30px 0 0 15px;
+	}
+	.helping-details p {
+		width: 90%;
+	}
+	.client-up {
+		width: 55%;
+	}
+	.offer-box {
+		right: -40px;
+	}
+
+  	 /*****************************/
+	/***** Service Page CSS ******/
+   /*****************************/
+	.service-helping-bottom {
+		width: 80%;
+	}
+	.service-helping-box {
+		padding: 65px 65px;
+	}
+	.working-up {
+		width: 50%;
+	}
+
+	/***************************/
+   /******** About Page *******/
+  /***************************/
+
+  /*****************************/
+ /******** Extra Page *********/
+/*****************************/
+	  
+  }
+  
+  @media all and (max-width: 1200px){
+	
+  }
+
+
+
+
+
+	/* Medium Device = 1200px */
+  @media all and (max-width: 1199.98px) {
+  
+	/*****************************/
+   /****** Home Page CSS ********/
+  /*****************************/
+	  .section-padding{
+		  padding: 100px 0;
+	  }
+	  .header-area {
+		  padding: 15px 0;
+	  }
+	  .menu-area ul li {
+		  margin: 0 15px;
+	  }
+	  .header-button {
+		  padding: 10px 15px;
+	  }
+	  .banner-heading h2 {
+		  font-size: 60px;
+	  }
+	  .banner-area-sub {
+		  left: -90px;
+		  width: 55%;
+	  }
+	  .banner-image {
+		  width: 100%;
+	  }
+	  .healping-right p {
+		  width: 95%;
+	  }
+	  .helping-box {
+		  margin: 30px 0 0 0;
+	  }
+	  .client-up {
+		  width: 70%;
+	  }
+	  .blog-heading h4 {
+		  width: 90%;
+	  }
+	  .blog-box {
+		  margin: 0 10px;
+	  }
+	  .blog-box-text {
+		  margin: 15px;
+	  }
+	  .btn-2 {
+		  width: 65%;
+		  margin-top: 50px;
+	  }
+	  .guide-box-right {
+		  margin-left: 0;
+	  }
+	  .offer-box {
+		  right: -20px;
+	  }
+	  .guide-box-left h3 {
+		  font-size: 42px;
+	  }
+	  .guide-box-left p {
+		  margin: 20px 0;
+	  }
+	  .offer-area-left h3 {
+		  font-size: 28px;
+	  }
+	  .footer-up-left h3 {
+		  font-size: 26px;
+	  }
+	  .btn-3 {
+		  width: 50%;
+	  }
+	  #email {
+		  width: 160px;
+	  }
+
+	 /*****************************/
+	/***** Service Page CSS ******/
+   /*****************************/
+   	.service-helping-box {
+		padding: 90px 75px;
+	}
+	.service-helping-bottom {
+		width: 95%;
+	}
+	.service-helping-area-main {
+		padding-bottom: 0px;
+	}
+	.working-up {
+		width: 60%;
+	}
+	.s-box-three {
+		margin-top: -100px;
+	}
+
+	/***************************/
+   /******** About Page *******/
+  /***************************/
+
+  	.banner-image {
+		width: 90%;
+	}
+	.about-banner-area-right .banner-area-sub {
+		right: -20px;
+		width: 45%;
+		padding: 20px;
+		top: 200px;
+	}
+	.about-working-area {
+		padding-bottom: 20px;
+	}
+	.about-working-area .working-up p {
+		width: 75%;
+	}
+
+  /*****************************/
+ /******** Extra Page *********/
+/*****************************/
+	.program-area-main .working-up h3 {
+		width: 55%;
+	}
+	.program-card-main {
+		padding: 40px 25px;
+	}
+	.guarantee-area-main.section-padding {
+		padding: 30px 0;
+	}
+  /*****************************/
+ /***** Free Guide Page *******/
+/*****************************/	
+	.free-guide-box {
+		padding: 70px 15px 70px 15px;
+	}
+	.free-guide-box p {
+		width: 100%;
+	}
+	.fg-client-review-box h4 {
+		width: 95%;
+	}
+	.client-review-area-main {
+		background: url('../images/shape/fg-bg.svg') no-repeat scroll top left/ 114% 110%;
+	}
+	.fg-client-review-box p {
+		width: 55%;
+		margin-bottom: 40px;
+	}
+	.fg-btn-4 {
+		width: 28%;
+		margin-bottom: 50px;
+	}
+	
+
+}
+  
+  
+
+
+
+  @media all and (max-width: 991.98px) {
+	 /*****************************/
+	/****** Home Page CSS ********/
+   /*****************************/
+   .section-padding {
+		padding: 60px 0;
+	}
+	.logo h3 {
+		font-size: 20px;
+	}
+	button.show, button.hide{
+		display: block;
+	}
+	button.hide {
+		margin-bottom: 20px;
+	}
+	.menu-area {
+		position: fixed;
+		top: 0;
+		right: 0;
+		background: rgba(0, 0, 0, .6);
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		transition: .5s;
+		visibility: hidden;
+		opacity: 0;
+	}
+	.menu-area.show {
+		visibility: visible;
+		opacity: 1;
+		z-index: 2;
+	}
+	.menu-area ul {
+		flex-direction: column;
+		list-style: none;
+		width: 40%;
+		background: var(--color02);
+		height: 100%;
+		position: absolute;
+		right: -100%;
+		top: 0;
+		transition: .5s;
+		justify-content: start;
+		padding: 70px 0;
+	}
+	.menu-area ul.slider {
+		right: 0;
+		position: relative;
+	}
+	.menu-area ul li a{
+		color: var(--color03);
+		font-size: 18px;
+	}
+	.menu-area ul li {
+		margin: 8px 15px;
+	}
+
+	button.hide {
+		position: absolute;
+		left: 10%;
+		top: 30px;
+	}
+	.menu-area ul li:nth-child(5) {
+		margin-bottom: 40px;
+	}
+	.banner-area-main {
+		padding: 70px 0px 45px 0px;
+	}
+	.banner-vactor {
+		padding: 0;
+		margin: 0 0 50px -30px;
+	}
+	.banner-vactor img {
+		margin-top: 0px;
+	}
+	.banner-area-left {
+		margin-bottom: 60px;
+	}
+	.banner-area-sub {
+		left: 0px;
+		width: 40%;
+	}
+	.banner-area-right {
+		margin-left: 0px;
+	}
+	.banner-image {
+		width: 65%;
+		margin: auto;
+	}
+	.btn-1 {
+		width: 35%;
+	}
+	.helping-text h4 {
+		margin-bottom: 40px;
+	}
+	.healping-right p {
+		margin-top: 0px;
+	}
+	.helping-box {
+		margin: 0 0 50px 0;
+	}
+	.client-up {
+		width: 100%;
+	}
+	.carosel-box {
+		padding: 30px;
+	}
+	.blog-heading {
+		margin-bottom: 0px;
+	}
+	.blog-heading h4 {
+		width: 100%;
+	}
+	.blog-box {
+		margin: 0 5px 50px 5px;
+	}
+	.btn-2 {
+		width: 80%;
+		margin-top: 5px;
+	}
+	.guide-box-right img {
+		width: 80%;
+		margin: auto;
+	}
+	.guide-box-right {
+		margin-bottom: 50px;
+	}
+	.offer-box {
+		right: 25px;
+		top: -45px;
+	}
+	.offer-mg {
+		padding: 0px;
+		margin-right: 0;
+	}
+	.offer-area-right img {
+		width: 80%;
+		margin: auto;
+	}
+	.offer-area-left {
+		margin: 35px 25px;
+	}
+	.offer-area-left p {
+		margin: 15px 0;
+	}
+	.footer-up-left {
+		margin-bottom: 40px;
+	}
+
+
+	 /*****************************/
+	/***** Service Page CSS ******/
+   /*****************************/
+   .service-helping-left .helping-text h4 {
+		margin-bottom: 40px;
+	}
+	.service-helping-box {
+		padding: 50px 45px;
+	}
+	.working-up {
+		width: 75%;
+		margin-bottom: 30px;
+	}
+	.working-right {
+		margin-bottom: 30px;
+	}
+	.working-right img {
+		width: 65%;
+	}
+
+	/***************************/
+   /******** About Page *******/
+  /***************************/
+  	.about-banner-area-right .banner-sub-icon {
+		left: 0;
+		top: -35px;
+		right: 0;
+		margin: auto;
+	}
+	.about-banner-area-right .banner-area-sub {
+		right: 15px;
+		width: 30%;
+	}
+	.about-working-area .working-up p {
+		margin: auto;
+		width: 95%;
+	}
+	.about-working-area {
+		padding-bottom: 20px;
+	}
+
+  /*****************************/
+ /******** Extra Page *********/
+/*****************************/
+	.free-guide-working-area-main .working-up {
+		margin-bottom: 20px;
+	}
+	.video-box {
+		margin-top: -55px;
+	}
+	.client-review-area {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.program-area-main .working-up h3 {
+		width: 85%;
+	}
+	.program-card-main {
+		padding: 40px 40px;
+	}
+	.guarantee-box p {
+		width: 65%;
+	}
+  /*****************************/
+ /***** Free Guide Page *******/
+/*****************************/	
+	.guide-box-right img {
+		width: 65%;
+	}
+	.free-guide-form form {
+		display: flex !important;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: nowrap;
+		flex-direction: unset;
+		margin-bottom: 12px;
+	}
+	.free-guide-form form input:nth-child(2) {
+		margin-bottom: 0px;
+	}
+	.free-guide-form form input{
+		margin: 0 20px 0 0;
+	}
+	.free-guide-box-right .offer-box {
+		right: 85px;
+	}
+	.video-box {
+		margin-top: -30px;
+	}
+	.fg-client-review-box h4 {
+		width: 100%;
+	}
+	.fg-client-review-box p {
+		width: 85%;
+		margin-bottom: 30px;
+	}
+	.helping-text h4 {
+		margin-bottom: 25px;
+	}
+	.client-review-area-main {
+		background: url('../images/shape/fg-bg.svg') no-repeat scroll top left/ 117% 86%;
+	}
+	.fg-btn-4 {
+		width: 40%;
+		margin-bottom: 40px;
+	}
+}
+  
+
+
+
+
+
+  @media all and (max-width:767.98px){
+	 /*****************************/
+	/****** Home Page CSS ********/
+   /*****************************/
+   .section-padding {
+		padding: 45px 0;
+	}
+   .banner-area-main {
+		padding: 50px 0px 45px 0px;
+	}
+	.banner-text {
+		text-align: center;
+	}
+	.banner-heading h2 {
+		font-size: 48px;
+		text-align: center;
+	}
+	.banner-content p {
+		text-align: center;
+	}
+	.btn-1 {
+		width: 45%;
+		margin: auto;
+	}
+	.banner-area-sub {
+		width: 45%;
+	}
+	.helping-text h4 {
+		text-align: center;
+		font-size: 40px;
+	}
+	.helping-box {
+		margin: 0px 15px 50px 15px;
+	}
+	.helping-area-main {
+		padding-bottom: 0px;
+	}
+	.carosel-box {
+		padding: 50px;
+	}
+	.client-text p {
+		font-size: 22px;
+	}
+	.btn-2 {
+		width: 50%;
+		margin-top: 0px;
+	}
+	.guide-box-left h3 {
+		font-size: 40px;
+		text-align: left;
+	}
+	.guide-box-left p {
+		font-size: 20px;
+	}
+	.offer-box {
+		right: 50px;
+	}
+	.btn-3 {
+		margin: auto;
+	}
+	.footer-up-right-input {
+		width: 50%;
+		margin-right: 10px;
+	}
+	#email {
+		width: 100%;
+		margin-right: 0;
+	}
+	.subscribe-btn {
+		width: 50%;
+		margin-left: 10px;
+	}
+	.header-button.btn-4 {
+		width: 100%;
+	}
+	.footer-area-middle {
+		padding-top: 50px;
+	}
+	.footer-m-one p {
+		margin-top: 15px;
+	}
+	.footer-m-one{
+		margin-bottom: 50px;
+	}
+	.footer-area-bottom {
+		padding: 20px 0;
+	}
+	.copyright-area {
+		padding-top: 24px;
+	}
+	.copyright-area p a span {
+		margin-left: 0px;
+		letter-spacing: 1px;
+	}
+	.copyright-area p {
+		font-size: 15px;
+	}
+	.copyright-area ul li a i {
+		font-size: 22px;
+	}
+	.footer-border {
+		width: 90%;
+	}
+
+	 /*****************************/
+	/***** Service Page CSS ******/
+   /*****************************/
+   	.s-box-two, .s-box-three {
+		margin-top: 25px;
+	}
+	.helping-area-main {
+		padding-bottom: 45px;
+	}
+	.working-up {
+		width: 100%;
+	}
+	.working-up h3 {
+		font-size: 40px;
+	}
+	.helping-text h4 {
+		text-align: left;
+	}
+	.accrodion-up.helping-text h4 {
+		text-align: center;
+	}
+	.accrodion-md {
+		width: 75%;
+	}
+	.accrodion-bottom {
+		padding: 25px;
+		margin: 0 10px;
+	}
+	.btn-mid {
+		width: 40%;
+	}
+
+	/***************************/
+   /******** About Page *******/
+  /***************************/
+
+  	.about-banner-area-right .banner-area-sub {
+		right: 0px;
+		width: 35%;
+	}
+	.baner-sub-second-icon img {
+		width: 50px;
+		height: 50px;
+	}
+	.company-logo img {
+		height: 65px;
+		width: auto;
+	}
+	.about-working-area .working-up {
+		text-align: left;
+	}
+	.about-working-area .working-up p {
+		width: 100%;
+	}
+	.about-working-area .working-left {
+		margin: 0 30px;
+	}
+	.about-working-area .working-up {
+		margin-bottom: 50px;
+	}
+	.about-working-area {
+		padding-bottom: 10px;
+	}
+
+  /*****************************/
+ /******** Extra Page *********/
+/*****************************/
+
+
+	.fg-btn-3 {
+		text-align: center;
+		width: 50%;
+	}
+	.client-review-box {
+		padding: 35px;
+		margin: 20px 35px;
+	}
+	.program-card-main {
+		padding: 50px 40px;
+	}
+	.guarantee-box p {
+		width: 95%;
+	}
+  /*****************************/
+ /***** Free Guide Page *******/
+/*****************************/	
+	.free-guide-form form {
+		flex-direction: column;
+		margin-bottom: 12px;
+	}
+	.free-guide-form form input {
+		margin: 0 0px 20px 0;
+	}
+	.free-guide-form form input {
+		width: 100%;
+	}
+	.free-guide-box-right .offer-box {
+		right: 55px;
+	}
+	.free-guide-area-main  .guide-box-right {
+		margin-bottom: 0px;
+	}
+	.working-up p {
+		width: 100%;
+	}
+	.video-box {
+		margin-bottom: 50px;
+	}
+	.client-review-area-main {
+		background: none;
+	}
+	.fg-client-review-box p {
+		width: 100%;
+		text-align: left;
+	}
+	.fg-client-review-box p.review-count {
+		text-align: center;
+	}
+	.fg-btn-4 {
+		margin-bottom: 30px;
+	}
+
+}
+  
+
+
+
+
+  @media all and (max-width:575.98px){
+	 /*****************************/
+	/****** Home Page CSS ********/
+   /*****************************/
+   .logo-main {
+		width: 60%;
+	}   
+   .menu-main {
+		width: 40%;
+	}
+	.menu-area ul {
+		width: 100%;
+	}
+	.copyright-area {
+		text-align: center;
+	}
+	.copyright-area ul{
+		display: flex;
+		justify-content: center !important;
+	}
+	.copyright-area ul li {
+		margin:0 20px;
+	}
+	
+
+	 /*****************************/
+	/***** Service Page CSS ******/
+   /*****************************/
+   	.accrodion-md {
+		width: 80%;
+	}
+	.order-sm-1{
+		order: -1;
+	}
+	.order-sm-2{
+		order: 1;
+	}
+	.service-helping-box {
+		padding: 30px 30px;
+	}
+
+	/***************************/
+   /******** About Page *******/
+  /***************************/
+
+  	.about-banner-area-right .banner-area-sub {
+		right: 0px;
+		width: 35%;
+		padding: 10px 6px;
+		top: 130px;
+	}
+	.carosel-box {
+		padding: 25px;
+	}
+	.about-working-area .working-up {
+		margin-top: 0px;
+	}
+	.helping-text h4 {
+		margin-bottom: 15px;
+	}
+	.accrodion-up .helping-text h4{
+		margin-bottom: 15px;
+	}
+	.accrodion-up {
+		margin-bottom: 15px;
+	}
+	.about-working-area .working-left .icon {
+		height: 70px;
+		width: 70px;
+	}
+	.about-working-area .working-left .icon img {
+		height: 45px;
+		width: 45px;
+	}
+
+  /*****************************/
+ /******** Extra Page *********/
+/*****************************/
+
+	.program-area-main .working-up h3 {
+		width: 100%;
+	}
+	.program-area-main .working-up {
+		margin-bottom: 25px;
+	}
+	.card-bottom {
+		margin-top: 40px;
+	}
+	.card-text:last-child {
+		margin-bottom: 10px !important;
+	}
+	.guarantee-icon img {
+		width: 50%;
+	}
+	.guarantee-box h2 {
+		margin: 10px 0;
+	}
+  /*****************************/
+ /***** Free Guide Page *******/
+/*****************************/	
+	.free-guide-box {
+		padding: 40px 15px 40px 15px;
+	}
+	.free-guide-box.guide-box-left h3 {
+		font-size: 44px;
+		font-weight: 700;
+	}
+	.guide-box-left p {
+		font-size: 18px;
+	}
+	.subscribe-btn {
+		margin-left: 0px;
+	}
+	.free-guide-box-right .offer-box {
+		right: 30px;
+	}
+	.free-guide-working-area-main .working-left .text p {
+		width: 95%;
+	}
+	.fg-btn-4 {
+		width: 60%;
+	}
+
+}
+  
+
+
+
+
+
+
+  @media all and (max-width:450px){
+	 /*****************************/
+	/****** Home Page CSS ********/
+   /*****************************/ 
+   
+   .logo-main {
+		width: 60%;
+	}
+	.menu-main{
+		width: 40%;
+	}
+	.menu-area ul {
+		width: 100%;
+	}
+	.banner-area-main {
+		padding: 35px 0px 35px 0px;
+	}
+	.banner-vactor {
+		margin: 0 0 35px 0px;
+	}
+	.banner-heading h2 {
+		font-size: 36px;
+	}
+	.banner-text p {
+		font-size: 14px;
+	}
+	.banner-content p {
+		font-size: 16px;
+	}
+	.btn-1 {
+		width: 60%;
+	}
+	.header-button {
+		padding: 8px 15px;
+	}
+	.header-button a {
+		font-size: 13px;
+	}
+	.banner-area-sub {
+		width: 60%;
+		left: 20px;
+		top: -10px;
+	}
+	.banner-sub-icon img {
+		height: 60px;
+		width: 60px;
+	}
+	.banner-sub-text h4 {
+		font-size: 20px;
+	}
+	.banner-image {
+		width: 80%;
+		margin: auto;
+	}
+	.helping-vactor {
+		margin-bottom: 20px;
+	}
+	.helping-text h4 {
+		font-size: 35px;
+		margin-bottom: 35px;
+	}
+	.healping-right p {
+		font-size: 16px;
+		width: 100%;
+	}
+	.helping-details p {
+		width: 100%;
+	}
+	.client-text p {
+		font-size: 20px;
+	}
+	.client-heading h3 {
+		font-size: 22px;
+	}
+
+	.guide-box-left h3 {
+		font-size: 35px;
+		text-align: left;
+	}
+	
+	.guide-box-left p {
+		font-size: 16px;
+	}
+	.guide-box-right {
+		margin-bottom: 30px;
+		margin-top: 0;
+	}
+	.offer-area-left {
+		margin: 20px 15px;
+	}
+	.offer-area-left h3 {
+		font-size: 25px;
+	}
+	.offer-area-left p {
+		font-size: 16px;
+	}
+	.footer-up-left p {
+		font-size: 16px;
+	}
+	.footer-m-two {
+		margin-bottom: 35px;
+	}
+	
+
+	 /*****************************/
+	/***** Service Page CSS ******/
+   /*****************************/
+   	.banner-area-left {
+		margin-bottom: 35px;
+	}
+   	.helping-heading h2 {
+		font-size: 22px;
+		margin: 20px 0 15px 0;
+	}
+	.working-up h3 {
+		font-size: 35px;
+	}
+	.working-up p {
+		font-size: 17px;
+	}
+	.accrodion-up p {
+		font-size: 18px;
+	}
+	.accordion button .accordion-title {
+		font-size: 16px;
+	}
+	.accrodion-bottom-content p {
+		font-size: 16px;
+	}
+	.accordion-item button{
+		display: flex;
+		align-items: center;
+	}
+
+	/***************************/
+   /******** About Page *******/
+  /***************************/
+  	.banner-area-left {
+		margin-bottom: 60px;
+	}
+	.baner-sub-second-icon img {
+		width: 40px;
+		height: 40px;
+	}
+	.about-banner-area-right .banner-area-sub {
+		right: -10px;
+		width: 34%;
+	}
+	.client-up-heading h3 {
+		font-size: 26px;
+	}
+	.client-heading h3 {
+		font-size: 20px;
+	}
+	.helping-text h4 {
+		margin-bottom: 15px;
+	}
+	
+  /*****************************/
+ /******** Extra Page *********/
+/*****************************/
+
+  /*****************************/
+ /***** Free Guide Page *******/
+/*****************************/	
+	.free-guide-box {
+		padding: 40px 0px 40px 0px;
+	}
+	.free-guide-box.guide-box-left h3 {
+		font-size: 36px;
+		font-weight: 700;
+	}
+	.guide-box-left p {
+		line-height: 25px;
+	}
+	.helping-text h4 {
+		font-weight: 700;
+	}
+	.client-review-box {
+		padding: 30px;
+		margin: 10px 10px;
+	}
+	.free-guide-working-area-main .working-left .text p {
+		width: 100%;
+	}
+	.video-box {
+		margin-bottom: 20px;
+	}
+
+}
