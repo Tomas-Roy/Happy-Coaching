@@ -1732,6 +1732,9 @@ video {
 	.about-working-area {
 		padding-bottom: 10px;
 	}
+	.about-working-area .working-left .icon {
+		width: 48px;
+	}
 
   /*****************************/
  /******** Extra Page *********/
