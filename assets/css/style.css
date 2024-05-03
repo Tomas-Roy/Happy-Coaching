@@ -1684,6 +1684,9 @@ video {
 	.helping-text h4 {
 		text-align: left;
 	}
+	.working-left .icon {
+		width: 64px;
+	}
 	.accrodion-up.helping-text h4 {
 		text-align: center;
 	}
