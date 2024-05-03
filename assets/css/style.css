@@ -5,7 +5,6 @@ Author: Tomas Roy
 Author URI: https://tomasroy.me
 */
 
-
   /*****************************/
  /******** Default CSS ********/
 /*****************************/
@@ -94,7 +93,6 @@ img {
 ul li a.active{
 	color: var(--color08) !important;
 }
-
 .menu-area ul li a:hover {
 	color: var(--color08);
     transition: .5s;
@@ -129,7 +127,6 @@ button.show, button.hide {
   /*********************/
  /**** Banner Area ****/
 /*********************/
-
 .banner-area-left {
 	margin-right: 85px;
 }
@@ -193,7 +190,6 @@ button.show, button.hide {
 	padding: 100px 0px 0px 0px;
 	background: #f4f4f4db;
 }
-
 
   /***********************/
  /**** Healping Area ****/
@@ -368,7 +364,6 @@ button.show, button.hide {
 	border-radius: 20px;
 	width: 100%;
 }
-
 .offer-area-left h3 {
 	font-size: 36px;
 	font-weight: 700;
@@ -383,7 +378,6 @@ button.show, button.hide {
   /***********************/
  /***** Footer Area *****/
 /***********************/
-
 .footer-area-up {
 	background-color: var(--color02);
 	padding: 50px 0;
@@ -396,7 +390,6 @@ button.show, button.hide {
 	font-size: 20px;
 	margin: 10px 0 0 0;
 }
-
 #email {
 	color: var(--color09);
 	opacity: 50%;
@@ -411,7 +404,6 @@ button.show, button.hide {
 .sub-btn::placeholder{
 	font-family: 'Kumbh Sans', sans-serif;
 }
-
 .header-button.btn-4 {
 	padding: 5px 30px;
 	color: var(--color01);
@@ -430,7 +422,6 @@ button.show, button.hide {
 .footer-m-two .f-name, .footer-m-three .f-name {
 	margin-bottom: 20px;
 }
-
 .f-menu-area ul li {
 	margin-bottom: 15px;
 }
@@ -446,11 +437,9 @@ button.show, button.hide {
 .f-last ul li{
 	opacity: 50%;
 }
-
 .copyright-area{
 	padding-top: 45px;
 }
-
 .copyright-area p a span {
 	font-variant: small-caps;
 	color: var(--color04);
@@ -484,7 +473,6 @@ button.show, button.hide {
 .section-padding {
     padding: 100px 0;
 }
-
 
   /***********************/
  /***** Service Page ****/
@@ -581,12 +569,9 @@ button.show, button.hide {
 	padding-bottom: 20px;
 }
 
-
-
   /***********************/
  /*** Accrodion Area ****/
 /***********************/
-
 .accrodion-up{
 	margin-bottom: 35px;
 }
@@ -603,13 +588,10 @@ button.show, button.hide {
 	margin: auto;
 	margin-bottom: 60px;
 }
-
-
 .accordion-item {
 	border: none;
 	padding: 15px 0;
 }
-
 .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
 }
@@ -636,10 +618,10 @@ button.show, button.hide {
   border: 1px solid var(--color08);
 }
 .accordion button .accordion-title {
-	padding: 10px 0;
-	font-size: 18px;
-	font-weight: 500;
-	color: var(--color04);
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color04);
 }
 .accordion button .icon {
   display: inline-block;
@@ -696,7 +678,6 @@ button.show, button.hide {
 	margin: 5px 0 30px 0;
 	width: 75%;
 }
-
 .accrodion-bottom {
 	padding: 42px;
 	background: var(--color02);
@@ -721,7 +702,6 @@ button.show, button.hide {
   /***********************/
  /*** Free Guide Page ***/
 /***********************/
-
 .free-guide-box p{
 	font-size: 20px;
 	width: 75%;
@@ -797,7 +777,6 @@ button.show, button.hide {
 .fg-btn-3{
 	text-align: center;
 }
-
 .client-review-area {
 	width: 70%;
 	margin: auto;
@@ -859,7 +838,6 @@ video {
 	margin-top: -70px;
 	margin-bottom: 100px;
 }
-
 .fg-client-review-box h4 {
 	width: 70%;
 	margin: auto;
@@ -894,12 +872,9 @@ video {
 	background: url('../images/shape/fg-bg.svg') no-repeat scroll top left/ 104% 95%;
 }
 
-
-
   /************************/
  /****** About page ******/
 /************************/
-
 .about-banner-area-right .banner-area-right-main {
 	position: relative;
 }
@@ -963,7 +938,6 @@ video {
 	font-weight: 800;
 }
 
-
   /************************/
  /***** Company Logo *****/
 /************************/
@@ -1005,7 +979,6 @@ video {
 .extra-page .video-box {
 	margin-bottom: 45px;
 }
-
 .program-area-main{
 	background-color: var(--color02);
 	padding: 80px 0;
@@ -1019,13 +992,11 @@ video {
 	margin: 20px auto;
 	width: 40%;
 }
-
 .card-heading h3 {
 	font-size: 22px;
 	font-weight: 700;
 	text-align: center;
 }
-
 .card-bottom {
 	margin-top: 60px;
 }
@@ -1067,25 +1038,15 @@ video {
 	text-align: center;
 	font-size: 20px;
 }
-
-
-
-
 .owl-nav{
 	display: none;
 }
-
-
-
-
-
-
-
   /*****************************/
  /******** Default CSS ********/
 /*****************************/
-@media all and (max-width: 1399.98px) {
 
+
+@media all and (max-width: 1399.98px) {
   /*****************************/
  /****** Home Page CSS ********/
 /*****************************/
@@ -1120,28 +1081,16 @@ video {
 	.working-up {
 		width: 50%;
 	}
-
-	/***************************/
-   /******** About Page *******/
-  /***************************/
-
-  /*****************************/
- /******** Extra Page *********/
-/*****************************/
-	  
   }
   
+
   @media all and (max-width: 1200px){
 	
   }
 
 
-
-
-
 	/* Medium Device = 1200px */
   @media all and (max-width: 1199.98px) {
-  
 	/*****************************/
    /****** Home Page CSS ********/
   /*****************************/
@@ -1236,7 +1185,6 @@ video {
 	/***************************/
    /******** About Page *******/
   /***************************/
-
   	.banner-image {
 		width: 90%;
 	}
@@ -1265,6 +1213,7 @@ video {
 	.guarantee-area-main.section-padding {
 		padding: 30px 0;
 	}
+
   /*****************************/
  /***** Free Guide Page *******/
 /*****************************/	
@@ -1288,14 +1237,8 @@ video {
 		width: 28%;
 		margin-bottom: 50px;
 	}
-	
-
 }
   
-  
-
-
-
   @media all and (max-width: 991.98px) {
 	 /*****************************/
 	/****** Home Page CSS ********/
@@ -1355,7 +1298,6 @@ video {
 	.menu-area ul li {
 		margin: 8px 15px;
 	}
-
 	button.hide {
 		position: absolute;
 		left: 10%;
@@ -1448,7 +1390,6 @@ video {
 		margin-bottom: 40px;
 	}
 
-
 	 /*****************************/
 	/***** Service Page CSS ******/
    /*****************************/
@@ -1512,6 +1453,7 @@ video {
 	.guarantee-box p {
 		width: 65%;
 	}
+
   /*****************************/
  /***** Free Guide Page *******/
 /*****************************/	
@@ -1556,11 +1498,6 @@ video {
 		margin-bottom: 40px;
 	}
 }
-  
-
-
-
-
 
   @media all and (max-width:767.98px){
 	 /*****************************/
@@ -1704,7 +1641,6 @@ video {
 	/***************************/
    /******** About Page *******/
   /***************************/
-
   	.about-banner-area-right .banner-area-sub {
 		right: 0px;
 		width: 35%;
@@ -1739,8 +1675,6 @@ video {
   /*****************************/
  /******** Extra Page *********/
 /*****************************/
-
-
 	.fg-btn-3 {
 		text-align: center;
 		width: 50%;
@@ -1755,6 +1689,7 @@ video {
 	.guarantee-box p {
 		width: 95%;
 	}
+
   /*****************************/
  /***** Free Guide Page *******/
 /*****************************/	
@@ -1793,13 +1728,8 @@ video {
 	.fg-btn-4 {
 		margin-bottom: 30px;
 	}
-
 }
   
-
-
-
-
   @media all and (max-width:575.98px){
 	 /*****************************/
 	/****** Home Page CSS ********/
@@ -1824,7 +1754,6 @@ video {
 		margin:0 20px;
 	}
 	
-
 	 /*****************************/
 	/***** Service Page CSS ******/
    /*****************************/
@@ -1840,11 +1769,13 @@ video {
 	.service-helping-box {
 		padding: 30px 30px;
 	}
+	.working-left .icon {
+		width: 80px;
+	}
 
 	/***************************/
    /******** About Page *******/
   /***************************/
-
   	.about-banner-area-right .banner-area-sub {
 		right: 0px;
 		width: 35%;
@@ -1878,7 +1809,6 @@ video {
   /*****************************/
  /******** Extra Page *********/
 /*****************************/
-
 	.program-area-main .working-up h3 {
 		width: 100%;
 	}
@@ -1897,6 +1827,7 @@ video {
 	.guarantee-box h2 {
 		margin: 10px 0;
 	}
+
   /*****************************/
  /***** Free Guide Page *******/
 /*****************************/	
@@ -1922,20 +1853,12 @@ video {
 	.fg-btn-4 {
 		width: 60%;
 	}
-
 }
   
-
-
-
-
-
-
   @media all and (max-width:450px){
 	 /*****************************/
 	/****** Home Page CSS ********/
    /*****************************/ 
-   
    .logo-main {
 		width: 60%;
 	}
@@ -2005,12 +1928,10 @@ video {
 	.client-heading h3 {
 		font-size: 22px;
 	}
-
 	.guide-box-left h3 {
 		font-size: 35px;
 		text-align: left;
 	}
-	
 	.guide-box-left p {
 		font-size: 16px;
 	}
@@ -2034,7 +1955,6 @@ video {
 		margin-bottom: 35px;
 	}
 	
-
 	 /*****************************/
 	/***** Service Page CSS ******/
    /*****************************/
@@ -2088,10 +2008,6 @@ video {
 	.helping-text h4 {
 		margin-bottom: 15px;
 	}
-	
-  /*****************************/
- /******** Extra Page *********/
-/*****************************/
 
   /*****************************/
  /***** Free Guide Page *******/
@@ -2119,5 +2035,4 @@ video {
 	.video-box {
 		margin-bottom: 20px;
 	}
-
 }
