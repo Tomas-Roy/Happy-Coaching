@@ -1043,6 +1043,11 @@ video {
   /*****************************/
  /******** Default CSS ********/
 /*****************************/
+@media all and (min-width: 1440px){
+	.free-guide-area-main .container {
+		max-width: 1440px;
+	}
+}
 
 
 @media all and (max-width: 1399.98px) {
