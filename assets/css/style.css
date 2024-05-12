@@ -1043,14 +1043,34 @@ video {
   /*****************************/
  /******** Default CSS ********/
 /*****************************/
+
+
+
+  /***************************************/
+ /************ Responsive CSS ***********/
+/***************************************/
+
 @media all and (min-width: 1440px){
 	.free-guide-area-main .container {
 		max-width: 1440px;
 	}
+	.free-guide-box-right .offer-box {
+		right: 80px;
+	}
 }
 
 
-
+@media all and (max-width: 1440px){
+	.free-guide-area-main .container {
+		max-width: 1320px;
+	}
+	.free-guide-box {
+		padding: 70px 30px 70px 30px;
+	}
+	.free-guide-box-right .offer-box {
+		right: 50px;
+	}
+}
 
 @media all and (max-width: 1399.98px) {
   /*****************************/
@@ -1088,11 +1108,7 @@ video {
 		width: 50%;
 	}
 	
-  }
 
-  
-
-  @media all and (min-width: 1200px){
 	.free-guide-box {
 		padding: 70px 10px 70px 40px;
 	}
@@ -1104,6 +1120,9 @@ video {
 	}
   }
 
+  @media all and (min-width: 1200px){
+	
+  }
 
 	/* Medium Device = 1200px */
   @media all and (max-width: 1199.98px) {
