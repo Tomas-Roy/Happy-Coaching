@@ -1050,6 +1050,8 @@ video {
 }
 
 
+
+
 @media all and (max-width: 1399.98px) {
   /*****************************/
  /****** Home Page CSS ********/
@@ -1085,11 +1087,21 @@ video {
 	.working-up {
 		width: 50%;
 	}
+	
   }
+
   
 
-  @media all and (max-width: 1200px){
-	
+  @media all and (min-width: 1200px){
+	.free-guide-box {
+		padding: 70px 10px 70px 40px;
+	}
+	.free-guide-box-right .offer-box {
+		right: 25px;
+	}
+	.free-guide-area-main .container {
+		max-width: 1140px;
+	}
   }
 
 
@@ -1240,6 +1252,12 @@ video {
 	.fg-btn-4 {
 		width: 28%;
 		margin-bottom: 50px;
+	}
+	.free-guide-box-right .offer-box {
+		right: -20px;
+	}
+	.free-guide-area-main .container {
+		max-width: 960px;
 	}
 }
   
